@@ -4,10 +4,10 @@ from ExDebug1 import environnement_optimal #importer la fonction de notre autre
 #test unitaire pour la fonction environnement_optimal()
 def test_environnement_optimal():
     # Arrange: préparer des variables d'entrées et le résultat attendu
-    temperature = 25
+    temperature = 30
     poussiere = "faible"
     humidite = 40
-    resultat_attendu = "Tout est sous contrôle!"
+    resultat_attendu = "Environnement non optimal"
 
     #Act:appeler la fonction à tester
     resultat_obtenu = environnement_optimal(temperature, poussiere,humidite)
